@@ -1,0 +1,16 @@
+
+##
+# Terminal 
+##
+
+$ avdmanager list avd
+$ avdmanager create avd -n PixelXL -k 'system-images;android-31;google_apis_playstore;x86_64' -d "pixel_xl"
+
+$ sudo apt install qemu-kvm
+$ sudo groupadd -r kvm
+$ sudo gpasswd -a $USER kvm
+$ sudo chmod 777 -R /dev/kvm
+
+$ emulator -avd PixelXL
+
+

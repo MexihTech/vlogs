@@ -1,0 +1,14 @@
+
+##
+# Terminal 
+##
+
+
+$ sdkmanager --list_installed
+$ sdkmanager --install "platform-tools"
+$ sdkmanager --install "platforms;android-31"
+$ sdkmanager --install "build-tools;31.0.0"
+$ sdkmanager --install "system-images;android-31;google_apis_playstore;x86_64"
+$ sdkmanager --install "emulator"
+$ sdkmanager --licenses
+$ sdkmanager --list_installed

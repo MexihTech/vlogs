@@ -1,0 +1,16 @@
+
+##
+# Terminal 
+##
+
+$ mv flutter ~
+$ flutter precache
+$ flutter --version
+$ dart --version
+
+
+##
+# .bashrc 
+##
+
+export PATH=$PATH:~/flutter/bin

@@ -1,0 +1,22 @@
+
+##
+# Terminal 
+##
+
+$ mkdir tools
+$ mv -i * tools/
+$ cd ..
+$ mkdir -p ~/Android/Sdk 
+$ mv cmdline-tools/ ~/Android/Sdk
+$ echo $PATH
+
+
+##
+# .bashrc 
+##
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/tools
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
