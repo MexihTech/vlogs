@@ -1,0 +1,29 @@
+
+-----------
+Command 1:
+-----------
+
+cd c:\dsdt
+set 64bit_OS_asl="C:\Program Files (x86)\Windows Kits\10\Tools\x64\ACPIVerify\asl.exe"
+set 32bit_OS_asl="C:\Program Files (x86)\Windows Kits\10\Tools\x86\ACPIVerify\asl.exe"
+copy /y %32bit_OS_asl% c:\dsdt > nul & copy /y %64bit_OS_asl% c:\dsdt > nul
+
+-----------
+Command 2:
+-----------
+
+asl /loadtable fix-audio-driver.aml
+
+
+-----------
+Command 3:
+-----------
+
+bcdedit -set TESTSIGNING ON
+
+
+-----------
+Command 4:
+-----------
+
+Reboot

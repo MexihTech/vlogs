@@ -1,0 +1,5 @@
+
+
+- Windows Binary Tools (ASL) and Windows Driver Kit (WDK):
+
+    https://egpu.io/forums/pc-setup/fix-dsdt-override-to-correct-error-12/
